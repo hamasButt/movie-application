@@ -58,4 +58,15 @@
   margin-left: 1.9rem;
 }
 
+@media (min-width: 360px) and (max-width: 640px) {
+  .movie-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .movie-section .section-right {
+    margin-left: unset;
+    margin-top: 0.6rem;
+  }
+}
+
 /*# sourceMappingURL=moviedetails.css.map */
