@@ -61,3 +61,17 @@
 .section-right {
   margin-left: 1.9rem;
 }
+
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .movie-section {
+    display: flex;
+    flex-direction: column;
+
+    .section-right {
+      margin-left: unset;
+      margin-top: .6rem;
+    }
+
+  }
+}

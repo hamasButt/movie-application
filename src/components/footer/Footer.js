@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <div>Movie App</div>
-            <div>helkolo hsow hgsidcpqwd</div>
+            <div>OMDB API</div>
         </div>
     )
 }
